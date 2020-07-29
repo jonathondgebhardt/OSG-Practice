@@ -3,8 +3,10 @@
 
 int main(int argc, char** argv)
 {
+    osg::ref_ptr<osg::Node> root{osgDB::readNodeFile("/home/jon/OpenSceneGraph-Data/cessna.osg")};
+
     osgViewer::Viewer viewer;
-    viewer.setSceneData(osgDB::readNodeFile("/home/jon/OpenSceneGraph-Data/cessna.osg"));
+    viewer.setSceneData(root);
 
     return viewer.run();
 }

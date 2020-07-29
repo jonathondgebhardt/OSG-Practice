@@ -1,1 +1,2 @@
-add_subdirectory(helloworld)
+add_subdirectory(HelloWorld)
+add_subdirectory(MonitoringTarget)
