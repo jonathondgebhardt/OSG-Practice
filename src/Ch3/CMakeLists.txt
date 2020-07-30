@@ -1,0 +1,2 @@
+add_subdirectory(MonitoringTarget)
+add_subdirectory(LogFileHandler)
