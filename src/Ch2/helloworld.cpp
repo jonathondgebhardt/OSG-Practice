@@ -17,7 +17,5 @@ int main(int argc, char** argv)
         return viewer.run();
     }
 
-    osg::notify(osg::FATAL) << "Could not run osgViewer with no filename";
-
     return EXIT_FAILURE;
 }
